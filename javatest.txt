@@ -1,0 +1,63 @@
+3.What are the generalised and specilised classes in java
+    the general class is  sometimes called a superclass or parent class
+	the special class is sometimes called a subclass or child class
+	
+4.a)i dont wantmy class to be inherited by any other ckass.what should i do?
+   we should not use the extend keywords
+   
+  b) can you give  a few examples  of final classes defined in java APL 
+     java.lang.string
+	 java.lang.Math are final
+	 classes
+	 
+  c)what are some alternatives of inheritance ?
+    Deligation can be alternative to inheritance .deligation means that you use an object of another class as an instance variable,and forward message to the instance   
+
+
+5.which sorted collection have you used?
+	java.util.collection
+	
+6.what is difference between Linked list and array list in java 
+     LinkedList                               
+* this class is uses a doubly Linked List to store its elements   
+*  it is faster being node based as not much bit shifting required
+*  it is implements list as well as Queue
+*   it is faster in manipulation data
+
+ ArrayList
+ * this class uses as a dynamic array 
+ *it is  slow as array manipulation is slower 
+ *it implements only list 
+ * it is faster in storing and acessing data 
+ 
+ 7. what is difference between Listiterator and iterator
+    ListIterator 
+* can transverse elements present in collection of both in forward and backward collection direction.
+*can only traverse list and not the other two
+*we can modify
+
+Iterator
+*can traverse  elements present only collection of forward direction
+*helps to traverse map, list and set
+*w cannot modify
+
+ 8.
+ occurs when a subclass  has the same method as the parent class 
+ 
+ 9.
+ A memory  Leak is   a situation  where there are objects presents in  the heap memory that are no lonher used but the garbage collection is remove them from  and therefore, unnecessarily maintained
+ 
+10.
+ static polymorphism
+*a type of polymorphism that collects the informayion to call a metho during compile time
+*occurs at compile time
+*Excecution speed is high
+* known as static binding  and early binding 
+
+Da ynamic  polymorphism
+*a type of polymorphism that collects the informayion to call a metho during run time 	
+occurs at run time 
+*Excecution speed is low
+*known as dynamic binding  and late binding 
+	
+11.By using Encapsulationa
